@@ -59,7 +59,7 @@ export default async function Posts() {
 				const token = MUX.JWT.signPlaybackId(playbackId, {
 					keyId: process.env.MUX_SECRET_SIGNING_KEY_ID,
 					keySecret: process.env.MUX_SECRET_BASE,
-					expiration: '900',
+					expiration: '7d',
 					type: 'video',
 				});
 				posts[i].post_file[

@@ -10,7 +10,6 @@ export default async function Home() {
 	const {
 		data: { session },
 	} = await supabase.auth.getSession();
-	console.log(session);
 	if (!session) {
 		redirect('/auth');
 	}
@@ -27,7 +26,6 @@ export default async function Home() {
 	const { data: public_avatar } = await supabase.storage
 		.from('avatars')
 		.getPublicUrl(`${user_data.avatar_url}`);
-	console.log(public_avatar);
 
 	return (
 		<main>
