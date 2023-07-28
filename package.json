@@ -9,8 +9,12 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@dnd-kit/core": "^6.0.8",
+    "@dnd-kit/sortable": "^7.0.2",
+    "@dnd-kit/utilities": "^3.2.1",
     "@mux/mux-node": "^7.3.0",
     "@mux/mux-video-react": "^0.7.15",
+    "@mux/upchunk": "^3.2.0",
     "@supabase/auth-helpers-nextjs": "^0.7.2",
     "@supabase/supabase-js": "^2.26.0",
     "@tiptap/extension-color": "^2.0.3",
@@ -20,6 +24,7 @@
     "@tiptap/pm": "^2.0.3",
     "@tiptap/react": "^2.0.3",
     "@tiptap/starter-kit": "^2.0.3",
+    "axios": "^1.4.0",
     "crypto": "^1.0.1",
     "draft-js": "^0.11.7",
     "next": "13.4.9",
@@ -27,6 +32,8 @@
     "react-dom": "18.2.0",
     "react-draft-wysiwyg": "^1.15.0",
     "react-icons": "^4.10.1",
+    "stream": "^0.0.2",
+    "swr": "^2.2.0",
     "uuid": "^9.0.0"
   }
 }

@@ -43,8 +43,6 @@ export default async function Home() {
 			</p>
 			<LogoutButton />
 			<Avatar userid={session.user.id} avatarurl={user_data.avatar_url ?? ''} />
-			
-			
 		</main>
 	);
 }
